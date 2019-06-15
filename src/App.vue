@@ -1,28 +1,48 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Synesthesiapp />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Synesthesiapp from './components/Synesthesiapp.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Synesthesiapp
   }
 }
 </script>
 
 <style>
+body {
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  font-size: 16px;
+}
+
+button {
+  color: white;
+  background: black;
+  padding: 0.8em 1.2em;
+  border-radius: 3px;
+  font-size: inherit;
+  cursor: pointer;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
 }
 </style>
