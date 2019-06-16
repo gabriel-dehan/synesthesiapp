@@ -1,6 +1,6 @@
 # synesthesia
 
-[https://gabriel-dehan.github.io/synesthesiapp](App accessible on github pages here)
+[App accessible on github pages here](https://gabriel-dehan.github.io/synesthesiapp)
 
 ## Project setup
 ```
