@@ -1,3 +1,5 @@
+# https://media.nature.com/original/nature-assets/srep/2014/141118/srep07089/extref/srep07089-s1.pdf
+
 <template>
   <div class="synesthesiapp">
 
@@ -6,8 +8,66 @@
     </div>
     <div v-else>
       <h1>Synesthesiapp</h1>
+
+      <h2>1 - Passive Drill</h2>
       <button v-on:click="setNumbers">Numbers</button>
       <button v-on:click="setLetters">Letters</button>
+
+      <h1>In development...</h1>
+      <h2>2 - E-DMTS</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>3 - L-DMTS</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>4 - Early Span</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>5 - Late Span</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>6 - Advanced Span</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>7 - Colors to Characters speed test</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>8 - Characters to Colors speed test</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>9 - Easy reading / calculations</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>10 - Advanced reading / calculations</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>11 - Matching (Syn N' Back)</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>12 - Backward Span</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>13 - Span task</h2>
+      <button v-on:click="setNumbers">Numbers</button>
+      <button v-on:click="setLetters">Letters</button>
+
+      <h2>14 - Reading generator</h2>
+      <button v-on:click="setLetters">Start</button>
+      
+      <h2>14 - Basic algebrae generator </h2>
+      <button v-on:click="setNumbers">Start</button>
+
     </div>
 
   </div>
