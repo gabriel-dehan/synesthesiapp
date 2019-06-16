@@ -1,5 +1,7 @@
 # synesthesia
 
+[https://gabriel-dehan.github.io/synesthesiapp](App accessible on github pages here)
+
 ## Project setup
 ```
 yarn install
@@ -7,23 +9,11 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+cd src/
+vue serve
 ```
 
-### Compiles and minifies for production
+### Compiles and deploy
 ```
-yarn run build
+./deploy.sh
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
